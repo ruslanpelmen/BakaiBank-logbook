@@ -1,1 +1,2 @@
-# BakaiBank-logbook
+## npm i
+## npm start

@@ -1,0 +1,30 @@
+.container {
+    flex-grow: 1;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.pagination {
+    margin-top: auto;
+}
+
+.additional {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton {
+    font-weight: var(--fw-b);
+}
+
+.quantity {
+    font-weight: var(--fw-sb);
+}
+
+.quantityTitle {
+    margin-right: .5em;
+}

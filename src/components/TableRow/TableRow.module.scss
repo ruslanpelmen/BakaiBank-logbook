@@ -1,0 +1,20 @@
+.row {
+    background: var(--color-gray-lighten);
+    color: var(--color-brand);
+}
+
+.index {
+    font-size: var(--fz-l) !important;
+    font-weight: var(--fw-b) !important;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    font-size: var(--fz-xs);
+}
+
+.updateCell {
+    padding: 0;
+    background: none !important;
+}

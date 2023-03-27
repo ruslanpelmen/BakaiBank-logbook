@@ -1,0 +1,39 @@
+.button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+//variants
+.pagination,
+.default {
+    font-weight: var(--fw-sb);
+    color: var(--color-white);
+    background: var(--color-brand);
+    border-radius: 100px;
+    padding: .55em 2em;
+
+    &:focus,
+    &:hover {
+        background: var(--color-brand-darken);
+    }
+}
+
+.pagination {
+    padding: 0;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+}
+
+//sizes
+.s {
+    font-size: var(--fz-s);
+}
+
+.m {
+    font-size: var(--fz-m);
+}
+
+.l {
+    font-size: var(--fz-l);
+}

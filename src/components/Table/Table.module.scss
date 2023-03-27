@@ -1,0 +1,39 @@
+.table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+
+    th,
+    td {
+        font-size: var(--fz-m);
+        border: var(--table-border);
+        padding: .2em .5em;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th:first-child,
+    td:first-child {
+        border-left: none;
+    }
+
+    th:last-child,
+    td:last-child {
+        border-right: none;
+    }
+
+    tr:first-child th,
+    tr:first-child td {
+        border-top: none;
+    }
+
+    tr:last-child td {
+        border-bottom: none;
+    }
+}
+
+.thead {
+    color: var(--color-white);
+    background: var(--color-brand);
+    font-size: var(--fz-s);
+}

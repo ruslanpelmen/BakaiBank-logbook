@@ -1,0 +1,28 @@
+.breaker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+}
+
+.list {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 100%;
+    background: var(--color-white);
+    border: 1px solid var(--color-brand);
+}
+
+.li {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: var(--fw-b);
+
+    &:hover {
+        background: var(--color-brand);
+        color: var(--color-white);
+    }
+}

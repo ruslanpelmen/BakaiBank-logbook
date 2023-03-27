@@ -1,0 +1,10 @@
+.button {
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    color: var(--color-brand);
+
+    &:hover {
+        color: var(--color-brand-darken);
+    }
+}

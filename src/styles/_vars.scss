@@ -1,0 +1,24 @@
+:root {
+    --fz-xs: 12px;
+    --fz-s: 14px;
+    --fz-m: 16px;
+    --fz-l: 20px;
+    --fz-xl: 30px;
+    --fz-xxl: 40px;
+
+    --fw-l: 300;
+    --fw-r: 400;
+    --fw-sb: 600;
+    --fw-b: 700;
+
+    --color-brand-lighten: #6E9FCB;
+    --color-brand: #0e3ea2;
+    --color-brand-darken: #0b2253;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray-lighten: #EBEBEB;
+    --color-gray: #BFBFBF;
+    --color-gray-darken: #848181;
+
+    --table-border: 2px solid var(--color-white);
+}

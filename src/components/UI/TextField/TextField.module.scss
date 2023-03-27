@@ -1,0 +1,45 @@
+.label {
+    display: inline-block;
+    width: 100%;
+}
+
+.title {
+    color: var(--color-brand);
+    font-weight: var(--fw-sb);
+}
+
+.field {
+    border: 2px solid var(--color-brand-lighten);
+    border-radius: 10px;
+    padding: .9em .625em;
+    width: 100%;
+    background: var(--color-white);
+    color: var(--color-brand);
+    resize: none;
+
+    &::placeholder {
+        color: var(--color-gray);
+    }
+
+    &:focus {
+        border-color: var(--color-brand);
+    }
+}
+
+//sizes
+.xs {
+    font-size: var(--fz-xs);
+}
+
+.s {
+    font-size: var(--fz-s);
+}
+
+.m {
+    font-size: var(--fz-m);
+
+}
+
+.l {
+    font-size: var(--fz-l);
+}

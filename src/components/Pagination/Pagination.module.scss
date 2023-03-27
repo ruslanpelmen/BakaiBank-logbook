@@ -1,0 +1,18 @@
+.pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .33em;
+}
+
+.currentPage {
+    background: var(--color-brand-darken)
+}
